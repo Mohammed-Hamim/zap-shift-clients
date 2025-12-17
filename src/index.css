@@ -1,2 +1,29 @@
+ @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
  @import "tailwindcss";
- @plugin "daisyui";
+
+ @plugin "daisyui" {
+   themes: light --default, dark --prefersdark;
+   themes: light --default;
+ }
+
+ @plugin "daisyui/theme" {
+   name: "mytheme";
+   default: true;
+   /* set as default */
+   prefersdark: false;
+   /* set as default dark mode (prefers-color-scheme:dark) */
+   color-scheme: light;
+   /* color of browser-provided UI */
+
+   --color-primary: #CAEB66;
+   --color-secondary: #03373D;
+   --color-primary-content: #0B0B0B;
+   --color-secondary-content: #606060;
+ }
+
+
+
+ body {
+   font-family: "Urbanist", sans-serif;
+ }
