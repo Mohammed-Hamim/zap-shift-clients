@@ -9,7 +9,7 @@ const MainLayout = () => {
             <header>
                 <Navbar></Navbar>
             </header>
-            <div className='min-h-screen'>
+            <div className='min-h-screen container mx-auto my-8'>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
