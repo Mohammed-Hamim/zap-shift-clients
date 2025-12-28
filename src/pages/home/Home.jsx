@@ -4,6 +4,7 @@ import HowWork from './howWork/HowWork';
 import Service from './ourService/Service';
 import Brands from './brands/Brands';
 import Features from './features/Features';
+import Priority from './priority/Priority';
  
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             </div>
            </div>
             <Features></Features>
+            <Priority></Priority>
         </div>
     );
 };
