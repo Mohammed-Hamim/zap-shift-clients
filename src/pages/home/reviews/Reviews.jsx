@@ -27,7 +27,7 @@ const Reviews = ({ reviewsPromise }) => {
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
-                slidesPerView={ 3}
+                slidesPerView={3}
                 loop={true}
                 autoplay={true}
                 coverflowEffect={{
@@ -35,12 +35,30 @@ const Reviews = ({ reviewsPromise }) => {
                     stretch: "50%",
                     depth: 200,
                     modifier: 1,
-                    scale:0.75,
+                    scale: 0.75,
                     slideShadows: true,
                 }}
                 pagination={true}
-                modules={[EffectCoverflow, Pagination,Autoplay]}
+                modules={[EffectCoverflow, Pagination, Autoplay]}
                 className="mySwiper"
+                breakpoints={{
+                    0: {
+                        slidesPerView: 1,
+                        spaceBetween: 16,
+                    },
+                    640: {
+                        slidesPerView: 1.2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 24,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                }}
             >
                 {
                     reviews.map((review, index) =>

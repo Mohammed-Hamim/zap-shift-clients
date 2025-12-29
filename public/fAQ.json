@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "How do I book a parcel delivery?",
+        "answer": "You can book a parcel delivery by entering pickup and delivery details, selecting the parcel type, and confirming your order through the app."
+    },
+    {
+        "id": 2,
+        "question": "What types of parcels can I send?",
+        "answer": "You can send documents, small packages, electronics, clothing, and other non-prohibited items through our delivery service."
+    },
+    {
+        "id": 3,
+        "question": "How long does delivery take?",
+        "answer": "Delivery time depends on the distance and service type. Same-day and next-day delivery options are available in selected areas."
+    },
+    {
+        "id": 4,
+        "question": "Can I track my parcel in real-time?",
+        "answer": "Yes, once your parcel is picked up, you can track its real-time location and delivery status directly from the app."
+    },
+    {
+        "id": 5,
+        "question": "What should I do if my parcel is delayed?",
+        "answer": "If your parcel is delayed, please contact our support team through the app. We will investigate and update you as soon as possible."
+    },
+    {
+        "id": 6,
+        "question": "Are there any items that cannot be delivered?",
+        "answer": "Yes, prohibited items include flammable materials, illegal goods, perishable food, and hazardous substances."
+    },
+    {
+        "id": 7,
+        "question": "How is the delivery cost calculated?",
+        "answer": "Delivery cost is calculated based on parcel weight, dimensions, delivery distance, and selected service type."
+    },
+    {
+        "id": 8,
+        "question": "What payment methods are supported?",
+        "answer": "We support cash on delivery, mobile banking, debit cards, and credit cards for your convenience."
+    },
+    {
+        "id": 9,
+        "question": "Can I cancel or modify my delivery?",
+        "answer": "You can cancel or modify your delivery before the parcel is picked up. After pickup, changes may not be possible."
+    },
+    {
+        "id": 10,
+        "question": "Is my parcel insured?",
+        "answer": "Yes, all parcels are insured up to a certain value. Additional insurance options are available during checkout."
+    }
+]
