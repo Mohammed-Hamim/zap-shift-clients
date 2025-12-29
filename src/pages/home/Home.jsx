@@ -5,9 +5,12 @@ import Service from './ourService/Service';
 import Brands from './brands/Brands';
 import Features from './features/Features';
 import Priority from './priority/Priority';
+import Reviews from './reviews/Reviews';
  
-
+const reviewsPromise = fetch('/reviews.json').then(res => res.json())
+ 
 const Home = () => {
+    console.log(reviewsPromise)
     return (
         <div className='space-y-10'>
             <Banner></Banner>
@@ -21,6 +24,7 @@ const Home = () => {
            </div>
             <Features></Features>
             <Priority></Priority>
+            <Reviews reviewsPromise={reviewsPromise}></Reviews>
         </div>
     );
 };

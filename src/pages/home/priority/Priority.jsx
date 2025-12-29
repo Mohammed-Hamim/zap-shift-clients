@@ -16,7 +16,7 @@ const Priority = () => {
                     <p className='text-gray-200 text-sm'>We offer the lowest delivery charge with the highest value along with 100% safety of your product. Pathao courier delivers your parcels in every corner of Bangladesh right on time.</p>
                     <div className='flex flex-col md:flex-row gap-4'>
                         <button className='btn border-0 rounded-2xl bg-primary'>Become a Merchant</button>
-                        <button className='btn btn-outline border-primary rounded-2xl text-primary'>Earn with ZapShift Courier</button>
+                        <button className='btn btn-outline border-primary rounded-2xl text-primary hover:text-black'>Earn with ZapShift Courier</button>
                     </div>
                 </div>
                 <div className='flex-1 -ml-10'>
