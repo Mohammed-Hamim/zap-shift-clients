@@ -19,10 +19,8 @@ const Brands = () => {
             loop={true}
             autoplay={true}
             grabCursor={true}
-            pagination={{
-                clickable: true,
-            }}
-            modules={[Pagination, Autoplay]}
+             
+            modules={[ Autoplay]}
         >
 
             {

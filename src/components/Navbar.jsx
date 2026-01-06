@@ -6,7 +6,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md';
 const Navbar = () => {
     const links = <>
     <li><NavLink>Services</NavLink></li>
-    <li><NavLink>Coverage</NavLink></li>
+    <li><NavLink to='/coverage'>Coverage</NavLink></li>
     <li><NavLink>Pricing</NavLink></li>
     <li><NavLink>About-us</NavLink></li>
     <li><NavLink>Be a rider</NavLink></li>
@@ -27,14 +27,14 @@ const Navbar = () => {
                  <Logo></Logo>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-secondary-content font-semibold">
+                <ul className="menu menu-horizontal space-x-2.5 px-1 text-secondary-content font-semibold">
                    {
                     links
                    }
                 </ul>
             </div>
             <div className="navbar-end">
-                  <Link className='btn btn-outline border-gray-400 rounded-xl mx-2 hidden md:flex'>Sing in</Link>
+                  <Link to='/login'  className='btn btn-outline border-gray-400 rounded-xl mx-2 hidden md:flex'>Sing in</Link>
                   <Link className='btn  border-o bg-primary rounded-xl'>Be a Rider</Link>
                   <span className='p-3 bg-primary-content text-primary rounded-full'>
                     <MdOutlineArrowOutward />
